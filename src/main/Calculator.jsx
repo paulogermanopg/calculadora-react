@@ -96,7 +96,7 @@ export default class Calculator extends Component {
                 <Button label="5" click={()=> this.addDigit('5')}/>
                 <Button label="6" click={()=> this.addDigit('6')}/>
                 <Button label="-" click={()=> this.setOperation('-')} operation/>
-                <Button label="1" click={()=> this.addDigit('1')}/>
+                <Button label="2" click={()=> this.addDigit('1')}/>
                 <Button label="2" click={()=> this.addDigit('2')}/>
                 <Button label="3" click={()=> this.addDigit('3')}/>
                 <Button label="+" click={()=> this.setOperation('+')} operation/>
